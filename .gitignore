@@ -7,17 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-/frontend/node_modules
+node_modules
 .DS_Store
 dist
 dist-ssr
 coverage
 *.local
 
-package-lock.json
-
-/cypress/videos/
-/cypress/screenshots/
+**/cypress/videos/
+**/cypress/screenshots/
 
 # Editor directories and files
 .vscode/*
@@ -28,4 +26,3 @@ package-lock.json
 *.njsproj
 *.sln
 *.sw?
-node_modules
